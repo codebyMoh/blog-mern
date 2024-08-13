@@ -1,0 +1,15 @@
+
+
+POST http://localhost:7777/api/user/adduser
+Content-Type: application/json
+
+{
+    "user_name": "Ana",
+    "user_email": "ana@gmail.com",
+    "user_DOB": "2021-01-24",
+    "gender": "female"
+
+}
+
+# GET http://localhost:7777/api/user/viewuser
+# Content-Type: application/json
